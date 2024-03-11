@@ -1,0 +1,11 @@
+-- Inserting dummy data into the 'workers' table
+INSERT INTO workers (first_name, last_name, hourly_pay, salary, JOB)
+VALUES ("san", "FE", 50000, NULL, "FE"),
+       ("san", "BE", 100000, NULL, "BE"),
+       ("san", "ryuu", 200000, NULL, "FS");
+
+-- Inserting initial data into the 'expenses' table
+INSERT INTO expenses (expense_name, expense_total)
+VALUES ("salary", 0),
+       ("supplies", 0),
+       ("taxes", 0);
