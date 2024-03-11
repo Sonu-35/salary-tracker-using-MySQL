@@ -3,7 +3,7 @@
 -- TABLE CREATION SECTION
 
 -- Creating the 'workers' table
-CREATE TABLE workers (
+CREATE TABLE workers ( 
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
